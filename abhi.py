@@ -8,7 +8,7 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 st.markdown("# Abhi's Pics")
 st.sidebar.markdown("# Abhi")
-path = "/app/abhi/abhi/Pics"
+path = "/app/abhi/Pics"
 filenames = glob.glob(os.path.join(path, "*"))
 placeholder = st.empty()
 
