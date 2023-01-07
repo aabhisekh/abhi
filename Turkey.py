@@ -4,7 +4,7 @@ import os
 import time
 import pandas as pd
 from PIL import ImageFile, Image
-ImageFile.LOAD_TRUNCATED_IMAGES = True
+#ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 st.markdown("# Turkey & Egypt Few Pics - Mom and Abhi")
 st.sidebar.markdown("# Mom and ABhi")
