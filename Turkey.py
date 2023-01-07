@@ -14,5 +14,5 @@ placeholder = st.empty()
 
 for filename in filenames:
     image = Image.open(filename)
-    placeholder.image(image, caption='Abhi latest Pics')
+    placeholder.image(image, caption='Few Pics - Mom and Abhi - Turkey & Egypt - Dec 2022')
     time.sleep(4)
