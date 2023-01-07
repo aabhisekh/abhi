@@ -6,7 +6,7 @@ import pandas as pd
 from PIL import ImageFile, Image
 #ImageFile.LOAD_TRUNCATED_IMAGES = True
 
-st.markdown("# Turkey & Egypt Few Pics - Mom and Abhi")
+#st.markdown("# Turkey & Egypt Few Pics - Mom and Abhi")
 st.sidebar.markdown("# Mom and Abhi")
 path = "/app/abhi/Turkey"
 filenames = glob.glob(os.path.join(path, "*"))
