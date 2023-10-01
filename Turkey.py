@@ -8,7 +8,7 @@ from PIL import ImageFile, Image
 
 #st.markdown("# Turkey & Egypt Few Pics - Mom and Abhi")
 st.sidebar.markdown("# Mom and Abhi")
-path = "/apps/abhi/Turkey"
+path = "/apps/aabhisekh/abhi/Turkey"
 filenames = glob.glob(os.path.join(path, "*"))
 placeholder = st.empty()
 
